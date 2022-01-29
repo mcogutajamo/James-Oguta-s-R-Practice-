@@ -1,5 +1,5 @@
 # James Oguta R-Practicals-Latest
-My current R practicals-Based on Assignment File shared by Tracey
+My current R practicals-Based on Tutorial File shared by Tracey Young
  ### Upload the heart dataset-Ensure it is saved in the same repository
 Heart <- read.csv ("Heart(3).csv", header=TRUE)
 ## Step 4: Use the 'structure' command to see and overview of the data
@@ -36,8 +36,11 @@ Heart$lleg10 <- log10(Heart$Leg)
 hist(Heart$lleg10)
 #Does the log transformed data appear to be more normally distributed?
 
+####PLEASE REVIEW THE CODES FROM THIS SECTION-YOUR FEEDBACK IS MUCH APPRECIATED
 
 ###Microcosting Tutorial###
+
+###SCENARIO
 
 ###2.	Work with the microcosting dataset 
 #In Tutorial 2 you completed a micro costing exercise using an EXCEL spreadsheet. Repeat the same exercise using the file Microcosting.csv.  A reminder of the tutorial is set out below.
@@ -51,7 +54,7 @@ hist(Heart$lleg10)
 #The treatment groups are labelled 1, 2 and 3 for standard care, CPAP and NIPPV, respectively.  The other variables/labels are attached.
 #The machine (including maintenance, consumables, etc) costs £52,065 and has a life expectancy of 5 years at which point it will have no resale value.
 
-#Questions
+#QUESTIONS
 #1.	Calculate the cost per patient for the machine assuming r=3.5% and an expected annual workload of 130.
 #2.	Identify unit costs for each of the other units of resource and state where they have been taken from.  Assume that for the tests and investigations, direct access services are the most appropriate.  All costs are available from NHS Reference Costs or Unit Costs of Health and Social Care (copies within MOLE).
 #3.	Calculate the following costs for each patient
@@ -61,7 +64,7 @@ hist(Heart$lleg10)
 #	total costs including overheads (which have been calculated elsewhere at £21.52 per patient
 #4.	What is the mean cost for each of the three types of treatment?
 
-#Solution#
+#SOLUTIONS#
 
 ###Importing microcosting CSV file into R###
 Microcosting <- read.csv ("Microcosting.csv", header=TRUE)
