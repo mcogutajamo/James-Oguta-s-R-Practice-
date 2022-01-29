@@ -1,4 +1,4 @@
-# James Oguta R-Practicals-Latest
+# James Oguta R-Practice-Latest
  My current R practicals
  ### Upload the heart dataset-Ensure it is saved in the same repository
 Heart <- read.csv ("Heart(3).csv", header=TRUE)
